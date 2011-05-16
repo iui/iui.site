@@ -59,7 +59,8 @@
 					However, this guide currently assumes you are familiar with the basics of HTML coding. As we expand the iUI documentation, more code basics will be included. Until then, with the use of a visual HTML editor (also know as WYSIWYG editor), you should be able to create most of your app, if not all.
 				</p>
 				<p>
-					In fact, iUI’s purpose is to minimize the need for manual code entry and provide the user with all the basics so they can concentrate on what matters most - making a great idea turn into a great app!				</p>
+					In fact, iUI's purpose is to minimize the need for manual code entry and provide the user with all the basics so they can concentrate on what matters most - making a great idea turn into a great app!
+				</p>
 			</div>
 			
 			<div class="col-right">
@@ -111,10 +112,14 @@
 </code>
 				</p>
 				<p>
-					Line 1 is needed to scale the browser viewport to the content width, and disable pinch/zoom<br />					Line 2 and 3 are the CSS styles. First one is iUI defining all globals, second is iOS default theme.<br />					Line 4 contains the link to the javascript file, which is responsible for the native looking transitions and governs the behavior of links, buttons, etc.<br />
+					Line 5 is needed to scale the browser viewport to the content width, and disable pinch/zoom<br />
+					Line 6 and 7 are the CSS styles. First one is iUI defining all globals, second is iOS default theme.<br />
+					Line 8 contains the link to the javascript file, which is responsible for the native looking transitions and governs the behavior of links, buttons, etc.<br />
 					<br />
-					<em>Note that iUI Javascript code doesn't interact with other major frameworks. You can mix it with some JQuery, MooTools, ...</em>				</p>
-				<p>					Ok that’s pretty much it, let’s make our first <a href="http://en.wikipedia.org/wiki/Hello_world_program" target="_blank">Hello World</a> :)
+					<em>Note that iUI Javascript code doesn't interact with other major frameworks. You can mix it with some JQuery, MooTools, ...</em>
+				</p>
+				<p>
+					Ok that's pretty much it, let's make our first <a href="http://en.wikipedia.org/wiki/Hello_world_program" target="_blank">Hello World</a> :)
 				</p>
 			</div>
 			
@@ -126,8 +131,8 @@
 				</p>
 				<p>
 					<strong>The Toolbar and Navigation</strong><br />
-					The main difference between iUI and other mobile web frameworks is the way the toolbar is managed. The toolbar sits at the top of your app’s screen and serves as the main menu for navigation and content titles.<br />
-					Where other frameworks require you to redefine a toolbar for every individual page/screen, iUI keeps the toolbar “static” and changes its title automatically (based on the value of the “title” attribute of the active screen).
+					The main difference between iUI and other mobile web frameworks is the way the toolbar is managed. The toolbar sits at the top of your app's screen and serves as the main menu for navigation and content titles.<br />
+					Where other frameworks require you to redefine a toolbar for every individual page/screen, iUI keeps the toolbar <q>static</q> and changes its title automatically (based on the value of the <q>title</q> attribute of the active screen).
 				</p>
 				<p>
 					Here is an example of a single screen showing a toolbar + the text "Hello World":
@@ -167,20 +172,20 @@
 
 			<div>
 				<p>
-					You may have noticed there is a piece of code in there for a "backButton"but no back button appears in this page. Just like the toolbar itself,  iUI takes care of the back button and shows it only when needed. If there is no previous screen in your navigation history, the back button is hidden. It shows up automatiquely and is titled using previous screen title value.
+					You may have noticed there is a piece of code in there for a "backButton"but no back button appears in this page. Just like the toolbar itself,  iUI takes care of the back button and shows it only when needed. If there is no previous screen in your navigation history, the back button is hidden. It shows up automatically and is titled using the previous screen's title value.
 				</p>
 				<p>
 					<strong>Pages, screens, and app content</strong><br />
-					The concept of a page in website is usually very clear - every new page is literally a new physical file that gets loaded. iUI operates on a slightly different principle. To make load times and transitions faster over a basic mobile phone network, iUI puts all the content it can in one physical page. That page (in our case the index.html file) contains all the screens that the user can navigate to. This is why, throughout this guide, we will refer to separate “pages” within your app as separate “screens” - literally what the user sees on their screen at the moment. Of course, you can have external content and additional pages and most apps do. In this case, iUI will load this external page content inside the current page, and then perform a sliding transition to it.
+					The concept of a page in website is usually very clear - every new page is literally a new physical HTML file that gets loaded. iUI operates on a slightly different principle. To make load times and transitions faster over a basic mobile phone network, iUI puts all the content it can in one physical HTML page. That page (in our case the index.html file) contains all the screens that the user can navigate to. This is why, throughout this guide, we will refer to separate <q>pages</q> within your app as separate <q>screens</q> - literally what the user sees on their screen at the moment. Of course, you can have external content and additional pages and most apps do. In this case, iUI will load this external page content inside the current page, and then perform a sliding transition to it.
 				</p>
 				<p class="tcenter">
 					<img src="images/iui-getting-started-img3.jpg">
 				</p>
 				<p>
-					Each individual page can be any HTML element: &lt;div>, &lt;ul>, &lt;form>, ... Each element should come with an 'id' and a 'title' attribute. 'id' is used as the screen reference and link, and should be unique. This is how a new screen is “requested” once a button or a link is clicked. 'title' is used as a screen title, which shows up in the toolbar and further as the back button label.<br />
+					Each individual page can be any HTML element: &lt;div>, &lt;ul>, &lt;form>, ... Each element should come with an 'id' and a 'title' attribute. 'id' is used as the screen reference and link, and should be unique. This is how a new screen is <q>requested</q> once a button or a link is clicked. 'title' is used as a screen title, which shows up in the toolbar and further as the back button label.<br />
 				</p>
 				<p>
-					On load, iUI hides all screens except the one with the attribute "selected" set to "true". This pretty much tells iUI that this screen is your main screen and should appear first. (if no body children elements have that attribute, only the toolbar will be displayed). Here is an example of a 
+					On load, iUI hides all screens except the one with the "selected" attribute set to "true". This pretty much tells iUI that this screen is your main screen and should appear first. (if no body children elements have that attribute, only the toolbar will be displayed). Here are some exmamples of iUI screens:
 				</p>
 				<p>
 <code>
@@ -238,7 +243,7 @@
 			</div>
 			<div>
 				<p>
-					Of course, you're not limited to two screens, neither to use a list element for links. Here is a second example with 3 screens.
+					Of course, you're not limited to two screens, or to using a list element for your links. Here is a second example with 3 screens.
 				</p>
 				<p class="col2">
 <code>
