@@ -2,8 +2,8 @@
 	background-image:	url(../images/download-header.jpg);
 }
 a.btnBig {
-	margin:			10px 0;
-	margin-left:	100px;
+	margin:			0 auto;
+	background-color:	#fff;
 }
 
 #content {
