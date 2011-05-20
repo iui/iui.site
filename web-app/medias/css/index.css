@@ -69,11 +69,12 @@ body {
 a.btnBig {
 	position:		absolute;
 	top:			424px;
-	width:			300px;
+	width:			275px;
 	text-align:		left;
-	padding:		25px 0px 28px 30px;
+	padding:		24px 0 28px 0;
 	background:		transparent url(../images/index-btnBig.png) no-repeat 0px 0px;
 	z-index:		10;
+	text-align:		center;
 }
 a.btnBig:hover {
 	background:		transparent url(../images/index-btnBig.png) no-repeat 0px -83px;

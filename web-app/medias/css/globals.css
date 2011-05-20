@@ -117,7 +117,7 @@ body {
 #menu > ul > li > a {
 	display:		block;
 	float:			left;
-	height:			46px;
+	height:			45px;
 	margin:			0 20px;
 	background-repeat:		no-repeat;
 	background-image:		url(../images/global_sprites.png);
