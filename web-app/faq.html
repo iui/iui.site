@@ -30,9 +30,10 @@
 				<li><a href="documentation.html" class="documentation active"><span>Documentation</span></a></li>
 				<li><a href="gallery.html" class="gallery"><span>Gallery</span></a></li>
 				<li><a href="get-involved.html" class="involved"><span>Get Involved</span></a></li>
-				<li><form method="GET" action="search" name="header_search">
+				<li><form method="GET" action="http://www.google.com/search" name="header_search">
 					<a href="#" id="emptysearch" onclick="empty('search_q');hide(this.id)"></a>
 					<input type="text" name="q" id="search_q" class="searchform" onFocus="checkHeaderSearch()" onKeyUp="checkHeaderSearch()" value="">
+					<input type="hidden" name="sitesearch" value="iui-js.org">
 					<input type="submit" value="search" class="hide">
 				</form></li>
 			</ul>
