@@ -5,6 +5,6 @@
 	<themename><![CDATA[HP/Palm WebOS]]></themename>
 	<themedate>March 2011</themedate>
 	<themeupdate>April 2011</themeupdate>
-	<themeurl>files/webos.zip</themeurl>
-	<themedesc><![CDATA[HP/Palm WebOS-like theme, using WebOS 1.x GUI elements]]></themedesc>
+	<themeurl></themeurl>
+	<themedesc><![CDATA[HP/Palm WebOS-like theme, using WebOS 1.x GUI elements.<br><i>Bundle since iUI 0.4dev2 in /iui/ext-sandbox/t</i>]]></themedesc>
 </item>
