@@ -17,13 +17,13 @@
 	
 	<script type='text/javascript'>
 	var gallery = [];
-	gallery.push(["Default red", "Apr 2011", "defaultred"]);
-	gallery.push(["Default dark", "Apr 2011", "defaultdark"]);
-	gallery.push(["Android", "Mar 2011", "android"]);
-	gallery.push(["WebOS", "Mar 2011", "webos"]);
-	gallery.push(["IPhoneDevCamp", "Mar 2011", "ipdc"]);
-	gallery.push(["Default", "Mar 2011", "default"]);
-	gallery.push(["Default using gradients", "Mar 2011", "defaultgrad"]);
+	gallery.push(["Default", "Mar 2011", "default", "bundle"]);
+	gallery.push(["Default red", "Apr 2011", "defaultred", "bundle"]);
+	gallery.push(["Default dark", "Apr 2011", "defaultdark", "bundle"]);
+	gallery.push(["Default using gradients", "Mar 2011", "defaultgrad", "bundle"]);
+	gallery.push(["Android", "Mar 2011", "android", "bundle"]);
+	gallery.push(["WebOS", "Mar 2011", "webos", "bundle"]);
+	gallery.push(["IPhoneDevCamp", "Mar 2011", "ipdc", "bundle"]);
 	</script>
 	
 </head>
@@ -68,17 +68,32 @@
 					You create one? <a href="http://groups.google.com/group/iui-developers" target="_blank">Let us know</a>! We'll add it here
 				</p>
 			</div>
+
+			<div>
+				<h5>Bundled themes</h2> 
+				<p>
+					You will find the following themes as part of the <a href="download.html">iUI-JS archive to download</a> or <a href="http://code.google.com/p/iui/source/browse/" target="_blank">sources repository</a>.
+				</p>
+			</div>
 			
 			<div class="gallery">
 
 				<script type='text/javascript'>
 				for(var i=0;i<(gallery.length);i++) {
-					document.write('<a href="themes/index.html?id='+gallery[i][2]+'"><img src="themes/images/'+gallery[i][2]+'-thumb.jpg"><strong>'+gallery[i][0]+'</strong><span>'+gallery[i][1]+'</span></a>\n');
+					if(gallery[i][3]=='bundle')
+						document.write('<a href="themes/index.html?id='+gallery[i][2]+'"><img src="themes/images/'+gallery[i][2]+'-thumb.jpg"><strong>'+gallery[i][0]+'</strong><span>'+gallery[i][1]+'</span></a>\n');
 				}
 				</script>
 
 			</div>
 			
+			<div>
+				<h5>Third party themes</h2> 
+				<p>
+					From MIT to commercial licence, just feel free to <a href="http://groups.google.com/group/iui-developers" target="_blank">submit it</a>!
+				</p>
+			</div>
+
 			<div class="page_footer">
 			
 				<div class="col1">
