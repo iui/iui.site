@@ -142,7 +142,7 @@
 					$('#themedesc').html($(xml).find('themedesc').text());
 					$('#preview1').css('background-image', 'url("images/'+appId+'-screen1.jpg")');
 					$('#preview2').css('background-image', 'url("images/'+appId+'-screen2.jpg")');
-					($(xml).find('themeurl').text()!='null')?$('#themeurl').html('<a href="'+$(xml).find('themeurl').text()+'" target="_blank" class="btn">Download the theme</a>'):$('#themeurl').html('-- not available --');
+					($(xml).find('themeurl').text()!='')?$('#themeurl').html('<a href="'+$(xml).find('themeurl').text()+'" target="_blank" class="btn">Download the theme</a>'):$('#themeurl').css('display','none');
 				}
 			});
 		});
