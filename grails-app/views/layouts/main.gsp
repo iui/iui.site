@@ -39,6 +39,9 @@
             <hr>
 
             <g:layoutBody />
+            
+            <hr>
+            
             <p id="footer">
                 iUI &copy; 2007-2011 - iUI is an opensource framework released under MIT license - <a href="sitemap.html">sitemap</a> - <g:link mapping="donate">DONATE</g:link>
             </p>

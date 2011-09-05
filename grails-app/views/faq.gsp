@@ -91,8 +91,5 @@
 
 
     </div>
-
-    <hr>
-
 </body>
 </html>
