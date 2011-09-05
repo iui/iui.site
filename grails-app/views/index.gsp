@@ -1,10 +1,10 @@
-<!DOCTYPE html>
 <html>
 <head>
 	<title>iUI - Mobile web framework for high-end devices</title>
     <meta name="layout" content="main" /> <%-- Select layout named: main.gsp --%>
 	<meta name="description" content="iUI is a framework consisting of a JavaScript library, CSS, and images for developing advanced mobile webapps for smartphones & mobile devices.">
     <parameter name="home" value="active" />  <%-- Add class="active" accessed with pageProperty page.home in layout: main.gsp --%>
+    <link rel="stylesheet" type='text/css' media="screen" href="${resource(dir:'medias/css',file:'index.css')}" />
 </head>
 
 <body>

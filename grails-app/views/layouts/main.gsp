@@ -9,11 +9,9 @@
     	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
     	
         <link rel="stylesheet" type='text/css' media="screen" href="${resource(dir:'medias/css',file:'globals.css')}" />
-        <link rel="stylesheet" type='text/css' media="screen" href="${resource(dir:'medias/css',file:'index.css')}" />
-        <!--[if lt IE 7]><link rel="stylesheet" type="text/css" media="screen" href="medias/css/ie6.css"><![endif]-->
-
-        <script type='text/javascript' src="${resource(dir:'medias/scripts',file:'global.js')}"></script>
         <g:layoutHead />
+        <!--[if lt IE 7]><link rel="stylesheet" type="text/css" media="screen" href="medias/css/ie6.css"><![endif]-->
+        <script type='text/javascript' src="${resource(dir:'medias/scripts',file:'global.js')}"></script>
     </head>
     <body>
         <div id="main">
