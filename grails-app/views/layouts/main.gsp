@@ -12,6 +12,7 @@
         <g:layoutHead />
         <!--[if lt IE 7]><link rel="stylesheet" type="text/css" media="screen" href="medias/css/ie6.css"><![endif]-->
         <script type='text/javascript' src="${resource(dir:'medias/scripts',file:'global.js')}"></script>
+        <ga:trackPageview />
     </head>
     <body>
         <div id="main">
