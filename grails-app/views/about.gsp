@@ -31,13 +31,13 @@
 
             <div>
                 <strong>Code license</strong><br />
-                <a href="http://en.wikipedia.org/wiki/BSD_licenses" target="_blank">New BSD license</a><br />
+                <a href="http://www.opensource.org/licenses/mit-license.php" target="_blank">MIT license</a><br />
                 <br />
                 <strong>Content license</strong><br />
                 <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons 3.0 BY-SA</a><br />
                 <br />
                 <strong>Contributors</strong><br />
-                <a href="contributors.html">See contributors on Google Code</a>
+                <a href="http://code.google.com/p/iui/people/list" target="_blank">See contributors on Google Code</a>
             </div>
 
         </div>
@@ -70,7 +70,7 @@
                 You don't have to learn a new language or synthax: iUI is just plain HTML, CSS and Javascript.<br />
                 No compilation, no code generation, no alteration... what you've typed is what you get.<br />
                 <br />
-                See our <a href="documentation.html">documentation</a>.
+                See our <g:link mapping="documentation">documentation</g:link>.
             </p>
             <br />
             <h2>Theme & plugins</h2>
@@ -78,7 +78,7 @@
                 The core code of iUI is lightweight, but a lots of plugins, extensions & themes.<br />
                 Offline cache, Google analytics, system informations, events logs, theme switcher, main mobile OS themes, ...<br />
                 <br />
-                See <a href="documentation/0.50/extensions.html">extensions</a> & <a href="themes.html">themes gallery</a>.
+                See <a href="documentation/0.50/extensions.html">extensions</a> & <g:link mapping="themes">themes gallery</g:link>.
             </p>
 
         </div>

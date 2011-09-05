@@ -11,7 +11,7 @@
     <div id="header">
         <h1>iUI</h1>
         <h2>web framework for smartphones & high-end devices</h2>
-        <a class="btnBig" href="download.html">Download iUI</a>
+        <g:link mapping="download" class="btnBig">Download iUI</g:link>
 
         <div id="home1">
             <p>
@@ -47,7 +47,7 @@
                 <h5>Meet iUI</h5>
                 <p>
                     Get a closer look at all you can easily do using iUI<br />	
-                    <a href="demo.html">iUI video presentation</a>
+                    <g:link mapping="demo">iUI video presentation</g:link>
                 </p>
             </div>
 
@@ -55,7 +55,7 @@
                 <h5>Powered by iUI</h5>
                 <p>
                     Discover some iUI-powered webapps and submit yours!<br />	
-                    <a href="gallery.html">See the gallery</a>
+                    <g:link mapping="gallery">See the gallery</g:link>
                 </p>
             </div>
 
@@ -63,7 +63,7 @@
                 <h5>iUI Theme Gallery</h5>
                 <p>
                     Browse our iUI theme gallery, and proudly submit yours<br />
-                    <a href="themes.html">See the gallery</a>
+                    <g:link mapping="themes">See the gallery</g:link>
                 </p>
             </div>
 

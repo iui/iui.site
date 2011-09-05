@@ -15,6 +15,15 @@ class UrlMappings {
 		name home:"/" (view:"/index")
 		name about:"/about" (view:"/about")
 		name demo:"/demo" (view:"/demo")
+		name download:"/download" (view:"/download")
+		name documentation:"/docs" (view:"/documentation")
+		name gallery:"/gallery" (view:"/gallery")
+		name getinvolved:"/get-involved" (view:"/get-involved")
+
+		name donate:"/donate" (view:"/donate")
+		name themes:"/theme-gallery" (view:"/themes")
+		name faq:"/faq" (view:"/faq")
+
 		"500"(view:'/error')
 	}
 }

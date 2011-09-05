@@ -22,10 +22,10 @@
                     <li><g:link mapping="home" class="home ${pageProperty(name:'page.home')}"><span>Home</span></g:link></li>
                     <li><g:link mapping="about" class="about ${pageProperty(name:'page.about')}"><span>About</span></g:link></li>
                     <li><g:link mapping="demo" class="demo ${pageProperty(name:'page.demo')}"><span>Demo</span></g:link></li>
-                    <li><a href="download.html" class="download"><span>Download</span></a></li>
-                    <li><a href="documentation.html" class="documentation"><span>Documentation</span></a></li>
-                    <li><a href="gallery.html" class="gallery"><span>Gallery</span></a></li>
-                    <li><a href="get-involved.html" class="involved"><span>Get Involved</span></a></li>
+                    <li><g:link mapping="download" class="download ${pageProperty(name:'page.demo')}"><span>Download</span></g:link></li>
+                    <li><g:link mapping="documentation" class="documentation ${pageProperty(name:'page.documentation')}"><span>Documentation</span></g:link></li>
+                    <li><g:link mapping="gallery" class="gallery ${pageProperty(name:'page.gallery')}"><span>Gallery</span></g:link></li>
+                    <li><g:link mapping="getinvolved" class="involved ${pageProperty(name:'page.involved')}"><span>Get Involved</span></g:link></li>
                     <li><form method="GET" action="http://www.google.com/search" name="header_search">
                         <a href="#" id="emptysearch" onclick="empty('search_q');hide(this.id)"></a>
                         <input type="text" name="q" id="search_q" class="searchform" onFocus="checkHeaderSearch()" onKeyUp="checkHeaderSearch()" value="">
@@ -40,7 +40,7 @@
 
             <g:layoutBody />
             <p id="footer">
-                iUI &copy; 2007-2011 - iUI is an opensource framework released under MIT license - <a href="sitemap.html">sitemap</a> - <a href="donate.html">DONATE</a>
+                iUI &copy; 2007-2011 - iUI is an opensource framework released under MIT license - <a href="sitemap.html">sitemap</a> - <g:link mapping="donate">DONATE</g:link>
             </p>
         </div>
     </body>
