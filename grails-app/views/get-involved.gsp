@@ -3,7 +3,7 @@
 	<title>iUI - Documentation</title>
     <meta name="layout" content="main" /> <%-- Select layout named: main.gsp --%>
 	<meta name="description" content="iUI is a framework consisting of a JavaScript library, CSS, and images for developing advanced mobile webapps for smartphones & mobile devices.">
-    <parameter name="get-involved" value="active" />  <%-- Add class="active" accessed with pageProperty page.home in layout: main.gsp --%>
+    <parameter name="involved" value="active" />  <%-- Add class="active" accessed with pageProperty page.home in layout: main.gsp --%>
     <link rel="stylesheet" type='text/css' media="screen" href="${resource(dir:'medias/css',file:'get-involved.css')}" />
 </head>
 

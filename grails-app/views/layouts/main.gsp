@@ -23,7 +23,7 @@
                     <li><g:link mapping="home" class="home ${pageProperty(name:'page.home')}"><span>Home</span></g:link></li>
                     <li><g:link mapping="about" class="about ${pageProperty(name:'page.about')}"><span>About</span></g:link></li>
                     <li><g:link mapping="demo" class="demo ${pageProperty(name:'page.demo')}"><span>Demo</span></g:link></li>
-                    <li><g:link mapping="download" class="download ${pageProperty(name:'page.demo')}"><span>Download</span></g:link></li>
+                    <li><g:link mapping="download" class="download ${pageProperty(name:'page.download')}"><span>Download</span></g:link></li>
                     <li><g:link mapping="documentation" class="documentation ${pageProperty(name:'page.documentation')}"><span>Documentation</span></g:link></li>
                     <li><g:link mapping="gallery" class="gallery ${pageProperty(name:'page.gallery')}"><span>Gallery</span></g:link></li>
                     <li><g:link mapping="getinvolved" class="involved ${pageProperty(name:'page.involved')}"><span>Get Involved</span></g:link></li>
@@ -44,7 +44,7 @@
             <hr>
             
             <p id="footer">
-                iUI &copy; 2007-2011 - iUI is an opensource framework released under MIT license - <a href="sitemap.html">sitemap</a> - <g:link mapping="donate">DONATE</g:link>
+                iUI &copy; 2007-2011 - iUI is an opensource framework released under MIT license - <a href="sitemap">sitemap</a> - <g:link mapping="donate">DONATE</g:link>
             </p>
         </div>
     </body>

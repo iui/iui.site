@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>iUI - About iUI</title>
+	<title>iUI - FAQ</title>
     <meta name="layout" content="main" /> <%-- Select layout named: main.gsp --%>
 	<meta name="description" content="iUI is a framework consisting of a JavaScript library, CSS, and images for developing advanced mobile webapps for smartphones & mobile devices.">
     <parameter name="documentation" value="active" />  <%-- Add class="active" accessed with pageProperty page.home in layout: main.gsp --%>

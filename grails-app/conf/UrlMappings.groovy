@@ -19,6 +19,7 @@ class UrlMappings {
 		name documentation:"/docs" (view:"/documentation")
 		name gallery:"/gallery" (view:"/gallery")
 		name getinvolved:"/get-involved" (view:"/get-involved")
+		name sitemap:"/sitemap" (view:"/sitemap")
 
 		name donate:"/donate" (view:"/donate")
 		name themes:"/theme-gallery" (view:"/themes")
