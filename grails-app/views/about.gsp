@@ -59,15 +59,15 @@
             <p>
                 iUI doesn't come with dozens of transitions styles or hundreds of built-in UI elements like you can find in bigger frameworks like JQueryMobile or Sencha. And this is on purpose.<br /> 
                 <br />
-                We really want to keep core code the lightest possible.
+                We really want to keep core code as lightweight as possible.
             </p>
         </div>
         <div>
             <img src="medias/images/about-img2.jpg" align="right">
             <br />
-            <h2>Nothing but HTML markups</h2>
+            <h2>Nothing but HTML markup</h2>
             <p>
-                You don't have to learn a new language or synthax: iUI is just plain HTML, CSS and Javascript.<br />
+                You don't have to learn a new language or syntax: iUI is just plain HTML, CSS and Javascript.<br />
                 No compilation, no code generation, no alteration... what you've typed is what you get.<br />
                 <br />
                 See our <g:link mapping="documentation">documentation</g:link>.
@@ -88,7 +88,7 @@
             <div class="col1">
                 <h5>iUI on Google Code</h5>
                 <p>
-                    Source & clones repository, issue tickets, wiki, releases history, roadmap...<br />
+                    Source repository (& user clones), issue tickets, wiki, release history, roadmap...<br />
                     <a href="http://code.google.com/p/iui/" target="_blank">iUI on Google Code</a>
                 </p>
             </div>
@@ -104,7 +104,7 @@
             <div class="col3">
                 <h5>A little bit of history...</h5>
                 <p>
-                    iUI has been created by Joe Hewitt, father of early Firefox, Firebug, DOM Inspector, ...<br />
+                    iUI was created by Joe Hewitt, father of early Firefox, Firebug, DOM Inspector, ...<br />
                     <a href="http://en.wikipedia.org/wiki/IUI_(software)" target="_blank">iUI on Wikipedia</a>
                 </p>
             </div>
