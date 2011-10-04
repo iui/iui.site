@@ -32,8 +32,8 @@
 
             </p>
             <p>
-                <a href="documentation/0.50/extensions.html"><strong>Extensions, sandbox & plugins</strong></a><br />
-                Looking for an extension documentation? See what its developer has posted here.
+                <a href="documentation/0.50/extensions.html"><strong>Extensions</strong></a><br />
+                Looking for an extension or documentation on one you're already using? Find it here.
 
             </p>
             <p>
@@ -59,7 +59,7 @@
 
             <div>
                 <strong>Get Involved</strong><br />
-                Like in most open-source projects, the more we are, the meyer it is! HTML/CSS/JS, documentation, design, translation, ...<br />
+                Like in most open-source projects, the more we are, the merrier it is! HTML/CSS/JS, documentation, design, translation, ...<br />
                 <g:link mapping="getinvolved">Don't be shy</g:link>
             </div>
 
