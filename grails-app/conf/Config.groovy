@@ -6,14 +6,20 @@
 //                             "file:${userHome}/.grails/${appName}-config.properties",
 //                             "file:${userHome}/.grails/${appName}-config.groovy"]
 
+grails.config.locations = [ "file:${userHome}/.grails/${appName}-config.properties"]
+
 // if(System.properties["${appName}.config.location"]) {
 //    grails.config.locations << "file:" + System.properties["${appName}.config.location"]
 // }
 
 cloudbees.api.url= "https://api.cloudbees.com/api"
+// Put cloudbees api key and secret in ${userHome}/.grails/${appName}-config.properties...
+//cloudbees.api.key= "xyz"
+//cloudbees.api.secret= "123"
 
 google.analytics.webPropertyID = "UA-8634743-11"
 
+grails.app.context = "/"
 grails.project.groupId = appName // change this to alter the default package name and Maven publishing destination
 grails.mime.file.extensions = true // enables the parsing of file extensions from URLs into the request format
 grails.mime.use.accept.header = false
