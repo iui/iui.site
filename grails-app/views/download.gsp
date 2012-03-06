@@ -22,7 +22,7 @@
                 Please click on “<strong>Download iUI</strong>” button to get the latest release.
             </p>
             <p class="tcenter">
-                <a href="http://iui.googlecode.com/files/iui-0.40-alpha1.zip" class="btnBig">Download iUI 0.40-alpha1</a>
+                <a href="http://iui.googlecode.com/files/iui-0.40-beta2.zip" class="btnBig">Download iUI 0.40-beta2</a>
                 <a href="http://code.google.com/p/iui/downloads/list" target="_blank">See other versions</a>
             </p>
             <p>
