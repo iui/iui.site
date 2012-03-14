@@ -14,24 +14,23 @@
 
 
     <div id="content">
-
-        <div>
-            <h2>Get Involved</h2> 
-        </div>
         
         <div>
+						<h2>Getting Started with iUI?</h2>
+            <p>
+                If you're just getting started with iUI, have a question to ask, want to help support other iUI users, or want to show off your work with iUI to a <b>large group of mobile web developers</b>, <a href="http://groups.google.com/group/iPhoneWebDev">iPhoneWebDev</a> is the Google Group for you.
+            </p>
+            <p>
+                <a href="http://groups.google.com/group/iPhoneWebDev" target="_blank" class="btnBig">Join iPhoneWebDev!</a><br />
+            </p>
+
+            <h2>Ready to Contribute to iUI?</h2>
 
             <p>
-                Like in most open-source projects, we are always happy to welcome new cool people to join the community and spend some spare time.
+               If you're ready to contribute to the future of iUI itself, join <a href="http://groups.google.com/group/iui-developers">iui-developers</a>, too.  We welcome help with documentation, illustration & design, tutorials, translation, extensions, themes, CSS development, JavaScript development, iUI website maintenance, etc.
             </p>
             <p>
-                Being a web developer is not a must-have, you can also help with documentation,illustration & design, tutorials, translation, ... even mailing-list moderation helps.
-            </p>
-            <p>
-                How to join? Just introduce yourself and your skills on the iUI Developers Google group. If you already have some mobile websites powered by iUI, feel free to share links! 
-            </p>
-            <p>
-                <a href="http://groups.google.com/group/iui-developers" target="_blank" class="btnBig">Join us!</a><br />
+                <a href="http://groups.google.com/group/iui-developers" target="_blank" class="btnBig">Join iui-developers!</a><br />
             </p>
 
         </div>
