@@ -18,7 +18,7 @@
         <div>
 						<h2>Getting Started with iUI?</h2>
             <p>
-                If you're just getting started with iUI, have a question to ask, want to help support other iUI users, or want to show off your work with iUI to a <b>large group of mobile web developers</b>, <a href="http://groups.google.com/group/iPhoneWebDev">iPhoneWebDev</a> is the Google Group for you.
+                If you're just getting started with iUI, have a question to ask, want to help support other iUI users, or want to show off your work with iUI to a <b>large group of mobile web developers</b>, <a href="http://groups.google.com/group/iPhoneWebDev">iPhoneWebDev</a> is where <a  href="https://groups.google.com/group/iphonewebdev/browse_thread/thread/444c123c2bd9188f/e6666d3b3ff31528?hl=en&#e6666d3b3ff31528">iUI was born</a> and is the Google Group for you.
             </p>
             <p>
                 <a href="http://groups.google.com/group/iPhoneWebDev" target="_blank" class="btnBig">Join iPhoneWebDev!</a><br />

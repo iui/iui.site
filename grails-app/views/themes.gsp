@@ -56,7 +56,7 @@
         <div>
             <h5>Third party themes</h2> 
             <p>
-                From MIT to commercial licence, just feel free to <a href="http://groups.google.com/group/iui-developers" target="_blank">submit it</a>!
+                From MIT to commercial licence, just feel free to <a href="http://groups.google.com/group/iui-developers" target="_blank">submit theme</a>!
             </p>
         </div>
 
@@ -66,7 +66,7 @@
                 <h5>Publish yours here</h5>
                 <p>
                     You've created a website/webapp using iUI?<br>We'd love to see it here<br />	
-                    <a href="http://groups.google.com/group/iui-developers" target="_blank">Submit yours</a>
+                    <a href="http://groups.google.com/group/iPhoneWebDev" target="_blank">Submit yours</a>
                 </p>
             </div>
             

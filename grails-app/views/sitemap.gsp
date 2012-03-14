@@ -79,7 +79,8 @@
             <div class="mid-col">
                 <h3><g:link mapping="getinvolved">Get Involved</g:link></h3>
                 <ul>
-                    <li><a href="http://groups.google.com/group/iui-developers" target="_blank">Join iUI</a></li>
+                    <li><a href="http://groups.google.com/group/iPhoneWebDev" target="_blank">Get or Give Help</a></li>
+                    <li><a href="http://groups.google.com/group/iui-developers" target="_blank">Contribute</a></li>
                     <li><a href="http://code.google.com/p/iui/people/list" target="_blank">Meet the team</a></li>
                 </ul>
             </div>

@@ -43,7 +43,7 @@
             <h2>Powered by iUI</h2> 
             <p>
                 This page is a gallery of submitted websites / webapps powered by iUI<br />
-                Yours is not here? <a href="http://groups.google.com/group/iui-developers" target="_blank">Submit it</a>!
+                Yours is not here? <a href="http://groups.google.com/group/iPhoneWebDev" target="_blank">Submit it</a>!
             </p>
         </div>
         
@@ -63,7 +63,7 @@
                 <h5>Publish yours here</h5>
                 <p>
                     You've created a website/webapp using iUI?<br>We'd love to see it here<br />	
-                    <a href="http://groups.google.com/group/iui-developers" target="_blank">Submit yours</a>
+                    <a href="http://groups.google.com/group/iPhoneWebDev" target="_blank">Submit yours</a>
                 </p>
             </div>
             
