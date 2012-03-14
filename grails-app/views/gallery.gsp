@@ -19,7 +19,7 @@
 	gallery.push(["Decathlon Snow", "Nov 2009", "decathlonneige"]);
 	gallery.push(["eSudoku", "Nov 2009", "esudoku"]);
 	gallery.push(["iLounge", "Nov 2009", "ilounge"]);
-	gallery.push(["IphlickR", "Nov 2009", "iphlickr"]);
+//	gallery.push(["IphlickR", "Nov 2009", "iphlickr"]);
 	gallery.push(["MedicoPedia", "Nov 2009", "medicopedia"]);
 	gallery.push(["Pacific Presbytery", "Nov 2009", "pacificpresbytery"]);
 	gallery.push(["Pocket Vidz", "Nov 2009", "pocketvidz"]);
