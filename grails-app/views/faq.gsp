@@ -2,7 +2,7 @@
 <head>
 	<title>iUI - FAQ</title>
     <meta name="layout" content="main" /> <%-- Select layout named: main.gsp --%>
-	<meta name="description" content="iUI is a framework consisting of a JavaScript library, CSS, and images for developing advanced mobile webapps for smartphones & mobile devices.">
+		<meta name="description" content="iUI is a framework consisting of a JavaScript library, CSS, and images for developing advanced mobile webapps for smartphones & mobile devices.">
     <parameter name="documentation" value="active" />  <%-- Add class="active" accessed with pageProperty page.home in layout: main.gsp --%>
     <link rel="stylesheet" type='text/css' media="screen" href="${resource(dir:'medias/css',file:'faq.css')}" />
 </head>
@@ -23,6 +23,7 @@
                 <li><strong><a href="#q3">Can i use other Javascript framework or tools on top of iUI?</a></strong></li>
                 <li><strong><a href="#q4">I only see the top bar, all the rest seems hidden</a></strong></li>
                 <li><strong><a href="#q5">I'm still stuck, where can i get some help?</a></strong></li>
+                <li><strong><a href="#q6">I want to help improve iUI, where do I go?</a></strong></li>
             </ul>
         </div>
 
@@ -80,12 +81,18 @@
 
         <div>
             <a name="q5"></a>
-            <h5>I'm still stuck, where can i get some help?</h5>
+            <h5>I'm still stuck, where can I get some help?</h5>
             <p>
-                You will find some helful people on our Google Groups:<br />
-                <a href="http://groups.google.com/group/iPhoneWebDev" target="_blank">iPhoneWebDev: iUI Support and General Questions</a> or <a href="http://groups.google.com/group/iui-developers" target="_blank">iUI Developers Group</a>.<br />
-                (make sure to put your script online and provide an URL people can test)
-.
+                Join the <a href="http://groups.google.com/group/iPhoneWebDev" target="_blank">iPhoneWebDev</a> Google Group and ask your questions there.  It's a large and helpful community of iUI users and mobile web developers.<br />
+                (Make sure to put your script online and provide a URL people can test.  <a href="http://jsfiddle.net/">jsFiddle.net</a> is perfect for creating simple examples.  Here's an <a href="http://jsfiddle.net/msgilligan/LkgpX/">iUI Hello World</a>.)
+            </p>
+        </div>
+
+        <div>
+            <a name="q6"></a>
+            <h5>I want to help improve iUI, where do I go?</h5>
+            <p>
+                Read the <g:link mapping="getinvolved">Get Involved</g:link> page and join the  <a href="http://groups.google.com/group/iui-developers" target="_blank">iui-developers</a> Google Group.
             </p>
         </div>
 
