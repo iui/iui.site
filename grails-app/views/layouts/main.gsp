@@ -44,7 +44,7 @@
             <hr>
             
             <p id="footer">
-                iUI &copy; 2007-2011 - iUI is Open Source: MIT license - <a href="sitemap">Sitemap</a> - <g:link mapping="donate">Donate</g:link>
+                iUI &copy; 2007-2012 - iUI is Open Source: MIT license - <a href="sitemap">Sitemap</a> - <g:link mapping="donate">Donate</g:link>
             </p>
         </div>
     </body>
