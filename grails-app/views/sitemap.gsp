@@ -68,11 +68,11 @@
             <div class="mid-col">
                 <h3><g:link mapping="documentation">Documentation (v0.50)</g:link></h3>
                 <ul>
-                    <li><a href="documentation/0.50/getting-started.html">Getting started</a></li>
+                    <li><a href="documentation/latest/getting-started.html">Getting started</a></li>
                     <li><g:link mapping="faq">Frequently Asked Questions</g:link></li>
-                    <li><a href="documentation/0.50/iui-documentation.html">iUI code documentation</a></li>
-                    <li><a href="documentation/0.50/extensions.html">Extensions, sandbox & plugins</a></li>
-                    <li><a href="documentation/0.50/styles-themes.html">Advanced styling & themes</a></li>
+                    <li><a href="documentation/latest/iui-documentation.html">iUI code documentation</a></li>
+                    <li><a href="documentation/latest/extensions.html">Extensions, sandbox & plugins</a></li>
+                    <li><a href="documentation/latest/styles-themes.html">Advanced styling & themes</a></li>
                 </ul>
             </div>
 

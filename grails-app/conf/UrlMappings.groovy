@@ -11,6 +11,10 @@ class UrlMappings {
 //			view = 'grails'
 			view = 'appstatus'
     	}
+    	
+    	// Hack to redirect documentation pages form 0.50/... to latest/...
+    	"/documentation/0.50/$page" (controller: "documentationRedirector", action: "redir1")
+    	"/documentation/0.50/$dir/$page" (controller: "documentationRedirector", action: "redir2")
 
 		name home:"/" (view:"/index")
 		name about:"/about" (view:"/about")

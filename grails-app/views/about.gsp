@@ -78,7 +78,7 @@
                 The core code of iUI is lightweight, but a lots of plugins, extensions & themes.<br />
                 Offline cache, Google analytics, system informations, events logs, theme switcher, main mobile OS themes, ...<br />
                 <br />
-                See <a href="documentation/0.50/extensions.html">extensions</a> & <g:link mapping="themes">themes gallery</g:link>.
+                See <a href="documentation/latest/extensions.html">extensions</a> & <g:link mapping="themes">themes gallery</g:link>.
             </p>
 
         </div>

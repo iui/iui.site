@@ -18,7 +18,7 @@
         <div class="col-left">
             <h2>iUI Documentation</h2> 
             <p>
-                <a href="documentation/0.50/getting-started.html"><strong>Getting Started</strong></a><br />
+                <a href="documentation/latest/getting-started.html"><strong>Getting Started</strong></a><br />
                 The following pages should introduce you to the iUI. You will then understand how it works and do your first “Hello World” page.
             </p>
             <p>
@@ -27,17 +27,17 @@
 
             </p>
             <p>
-                <a href="documentation/0.50/iui-documentation.html"><strong>iUI code documentation</strong></a><br />
+                <a href="documentation/latest/iui-documentation.html"><strong>iUI code documentation</strong></a><br />
                 iUI core code documentation, in which you can find all you need about system object & functions.
 
             </p>
             <p>
-                <a href="documentation/0.50/extensions.html"><strong>Extensions</strong></a><br />
+                <a href="documentation/latest/extensions.html"><strong>Extensions</strong></a><br />
                 Looking for an extension or documentation on one you're already using? Find it here.
 
             </p>
             <p>
-                <a href="documentation/0.50/styles-themes.html"><strong>Advanced styling & themes</strong></a><br />
+                <a href="documentation/latest/styles-themes.html"><strong>Advanced styling & themes</strong></a><br />
                 All you need to know to make some custom changes or start your own iUI theme.
 
             </p>
