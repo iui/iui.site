@@ -26,11 +26,13 @@
                 Get quick answers to commonly asked questions about iUI.
 
             </p>
+            <!-- Don't have script or time to keep this up to date, yet. So comment out...
             <p>
                 <a href="documentation/latest/iui-documentation.html"><strong>iUI code documentation</strong></a><br />
                 iUI core code documentation, in which you can find all you need about system object & functions.
 
             </p>
+            -->
             <p>
                 <a href="documentation/latest/extensions.html"><strong>Extensions</strong></a><br />
                 Looking for an extension or documentation on one you're already using? Find it here.
