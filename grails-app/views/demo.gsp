@@ -21,7 +21,7 @@
         
         <div>
             <div class="demo-video">
-                <div><iframe src="http://player.vimeo.com/video/10326422?portrait=0&amp;color=c70000" width="320" height="480" frameborder="0"></iframe></div>
+                <div><iframe class="youtube-player" type="text/html" width="320" height="480" src="http://www.youtube.com/embed/Dnvtg83qrtY" frameborder="0"></iframe></div>
                 <img src="medias/images/demo-img1.jpg">
             </div>
 
