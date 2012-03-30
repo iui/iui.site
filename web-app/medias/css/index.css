@@ -103,3 +103,45 @@ a.btnBig:hover {
 #content > div.page_footer > div.col3 {
 	background-image:	url(../images/index-footer-img3.jpg);
 }
+
+#demoVideo {
+	display:	block;
+	position:	absolute;
+	width:		100%;
+	height:		100%;
+	top:		0px;
+	left:		0px;
+	background:	#000;
+	background: rgba(0,0,0,.7);
+	z-index:	999;
+}
+#demoVideo div {
+	display:	block;
+	position:	absolute;
+	top:		50%;
+	left:		50%;
+	margin-left:	-340px;
+	margin-top:		-210px;
+}
+#demoVideo a {
+	display: 		block;
+	position: 		absolute;
+	margin-left: 	660px;
+	margin-top: 	-10px;
+	padding: 		.05em 0.3em 0.2em 0.3em;
+	color: 			#fff;
+	font-size: 		20px;
+	text-decoration: none;
+	font-weight: 	bold;
+	line-height:	0.9em;
+	border: 		2px solid white;
+	box-shadow: 	0 0 .5em rgba(0, 0, 0, .8);
+	background: 	#000;
+	-webkit-border-radius: 	1em;
+	-moz-border-radius: 	1em;
+	border-radius: 			1em;
+}
+#demoVideo div iframe {
+	margin-top: 	20px;
+	margin-left: 	20px;	
+}

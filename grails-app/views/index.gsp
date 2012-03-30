@@ -5,6 +5,21 @@
 	<meta name="description" content="iUI is a framework consisting of a JavaScript library, CSS, and images for developing advanced mobile webapps for smartphones & mobile devices.">
     <parameter name="home" value="active" />  <%-- Add class="active" accessed with pageProperty page.home in layout: main.gsp --%>
     <link rel="stylesheet" type='text/css' media="screen" href="${resource(dir:'medias/css',file:'index.css')}" />
+    <script type="text/javascript">
+    function showDemoVideo() {
+    	if(!document.getElementById('demoVideo')) {
+    		var dv = document.createElement('div');
+    		dv.id='demoVideo';
+    		dv.innerHTML = '<div><a href="javascript:closeDemoVideo()">x</a><iframe width="640" height="360" src="http://www.youtube.com/embed/Dnvtg83qrtY?rel=0" frameborder="0" allowfullscreen></iframe></iframe></div>';
+    		document.body.appendChild(dv);
+    	}
+    }
+    function closeDemoVideo() {
+    	if(document.getElementById('demoVideo')) {
+    		document.getElementById('demoVideo').parentNode.removeChild(document.getElementById('demoVideo'));
+    	}
+    }
+    </script>
 </head>
 
 <body>
@@ -47,7 +62,7 @@
                 <h5>Meet iUI</h5>
                 <p>
                     Get a closer look at all you can easily do using iUI<br />	
-                    <g:link mapping="demo">iUI video presentation</g:link>
+                    <a href="javascript:showDemoVideo()">iUI video presentation</a>
                 </p>
             </div>
 
