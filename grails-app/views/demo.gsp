@@ -21,7 +21,7 @@
         
         <div>
             <div class="demo-video">
-                <div><iframe class="youtube-player" type="text/html" width="320" height="480" src="http://www.youtube.com/embed/Dnvtg83qrtY" frameborder="0"></iframe></div>
+                <div><iframe class="youtube-player" type="text/html" width="320" height="480" src="http://www.youtube.com/embed/ArM0xSNIj84" frameborder="0"></iframe></div>
                 <img src="medias/images/demo-img1.jpg">
             </div>
 
