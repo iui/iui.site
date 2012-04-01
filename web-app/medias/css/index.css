@@ -122,6 +122,8 @@ a.btnBig:hover {
 	left:		50%;
 	margin-left:	-340px;
 	margin-top:		-210px;
+  background:  #fff;
+  width: 680px;
 }
 #demoVideo a {
 	display: 		block;
@@ -142,6 +144,5 @@ a.btnBig:hover {
 	border-radius: 			1em;
 }
 #demoVideo div iframe {
-	margin-top: 	20px;
-	margin-left: 	20px;	
+	margin: 	20px 0; 
 }
