@@ -16,7 +16,7 @@
     }
     function closeDemoVideo() {
     	if(document.getElementById('demoVideo')) {
-    		document.getElementById('demoVideo').parentNode.removeChild(document.getElementById('demoVideo'));
+    		document.body.removeChild(document.getElementById('demoVideo'));
     	}
     }
     </script>
