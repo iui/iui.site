@@ -10,7 +10,7 @@
     	if(!document.getElementById('demoVideo')) {
     		var dv = document.createElement('div');
     		dv.id='demoVideo';
-    		dv.innerHTML = '<div><a href="javascript:closeDemoVideo()">x</a><iframe width="640" height="360" src="http://www.youtube.com/embed/Dnvtg83qrtY?rel=0" frameborder="0" allowfullscreen></iframe></iframe></div>';
+    		dv.innerHTML = '<div><a href="javascript:closeDemoVideo()">x</a><iframe width="640" height="360" src="http://www.youtube.com/embed/Dnvtg83qrtY?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe></iframe></div>';
     		document.body.appendChild(dv);
     	}
     }
