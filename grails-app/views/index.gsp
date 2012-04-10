@@ -16,9 +16,17 @@
     }
     function closeDemoVideo() {
     	if(document.getElementById('demoVideo')) {
-    		document.body.removeChild(document.getElementById('demoVideo'));
+    		document.getElementById('demoVideo').style.display="none"; // IE7 bugfix
+    		removeChildSafe(document.getElementById('demoVideo'));
     	}
     }
+	function removeChildSafe(el) {
+	    //before deleting el, recursively delete all of its children - IE7 bugfix
+	    while(el.childNodes.length > 0) {
+	        removeChildSafe(el.childNodes[el.childNodes.length-1]);
+	    }
+	    el.parentNode.removeChild(el);
+	}
     </script>
 </head>
 
