@@ -40,7 +40,7 @@
                 <img class="thumb" src="medias/images/demo-img9.jpg">
             </p>
             <p>
-                See <g:link mapping="documentation">getting started</g:link> documentation.
+                See <a href="${resource(dir: 'documentation/latest', file: 'getting-started.html')}">getting started</a> documentation.
             </p>
             
             <br />
@@ -57,7 +57,7 @@
                 <img class="thumb" src="medias/images/demo-img13.jpg">
             </p>
             <p>
-                See <g:link mapping="themes">themes gallery</g:link> & <g:link mapping="documentation">Advanced styling & themes</g:link> documentation.
+                See <g:link mapping="themes">themes gallery</g:link> & <a href="${resource(dir: 'documentation/latest', file: 'styles-themes.html')}">Advanced styling & themes</a> documentation.
             </p>
 
         </div>

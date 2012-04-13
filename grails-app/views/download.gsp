@@ -27,7 +27,7 @@
             </p>
             <p>
                 First try with iUI?<br />
-                We highly encourage you to take a minute and look at the <g:link mapping="documentation">getting started with iUI</g:link> documentation page to understand its folder tree.
+                We highly encourage you to take a minute and look at the <a href="${resource(dir: 'documentation/latest', file: 'getting-started.html')}">getting started with iUI</a> documentation page to understand its folder tree.
             </p>
             <p>
                 If you are looking for a previous release or the latest developer source code available, please visit the <a href="http://code.google.com/p/iui/source/browse/" target="_blank">iUI source repository</a> on Google Code.
@@ -47,7 +47,7 @@
                 <h5>Get extensions</h5>
                 <p>
                     Google Analytics, Maps, cache manager, theme switcher, more css styles...<br />	
-                    <g:link mapping="documentation">See extensions</g:link>
+                    <a href="${resource(dir: 'documentation/latest', file: 'extensions.html')}">See extensions</a>
                 </p>
             </div>
             
