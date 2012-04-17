@@ -22,7 +22,7 @@
                 Made with only iPhone in mind in the first place (reason of i UI), we now supports most smartphones & tablets.
             </p>
             <p>
-                For more information, you may also want to read <a href="http://www.joehewitt.com/" target="_blank">Joe Hewitt</a>'s <a href="http://www.joehewitt.com/blog/introducing_iui.php" target="_blank">Introductory Blog Post</a>, and look at the <a href="http://code.google.com/p/iui/wiki/Roadmap" target="_blank">Roadmap</a>.
+                For more information, you may also want to read <a href="http://joehewitt.com/" target="_blank">Joe Hewitt</a>'s <a href="http://joehewitt.com/2007/07/11/introducing-iui" target="_blank">Introductory Blog Post</a>, and look at the <a href="http://code.google.com/p/iui/wiki/Roadmap" target="_blank">Roadmap</a>.
 
             </p>
         </div>

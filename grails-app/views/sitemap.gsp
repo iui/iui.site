@@ -34,7 +34,7 @@
                 <h3><g:link mapping="about">About iUI</g:link></h3>
                 <ul>
                     <li><a href="http://www.youtube.com/watch?v=Dnvtg83qrtY" target="_blank">Introductory video from homepage</a></li>
-                    <li><a href="http://www.joehewitt.com/blog/introducing_iui.php" target="_blank">Joe Hewitt's introduction blog post</a></li>
+                    <li><a href="http://joehewitt.com/2007/07/11/introducing-iui" target="_blank">Joe Hewitt's introduction blog post</a></li>
                     <li><a href="http://code.google.com/p/iui/wiki/Roadmap" target="_blank">iUI Roadmap</a></li>
                     <li><a href="http://en.wikipedia.org/wiki/IUI_(software)" target="_blank">iUI Wikipedia Entry</a></li>
                     <li><g:link mapping="themes">Theme Gallery</g:link></li>
