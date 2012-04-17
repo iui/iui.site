@@ -26,55 +26,50 @@
                     <li><g:link mapping="download">DOWNLOAD</g:link></li>
                     <li><g:link mapping="demo">iUI video presentation</g:link></li>
                     <li><g:link mapping="gallery">Powered by iUI</g:link></li>
-                    <li><g:link mapping="themes">Themes</g:link></li>
+                    <li><g:link mapping="themes">Theme Gallery</g:link></li>
                 </ul>
             </div>
 
             <div class="mid-col">
                 <h3><g:link mapping="about">About iUI</g:link></h3>
                 <ul>
+                    <li><a href="http://www.youtube.com/watch?v=Dnvtg83qrtY" target="_blank">Introductory video from homepage</a></li>
                     <li><a href="http://www.joehewitt.com/blog/introducing_iui.php" target="_blank">Joe Hewitt's introduction blog post</a></li>
                     <li><a href="http://code.google.com/p/iui/wiki/Roadmap" target="_blank">iUI Roadmap</a></li>
-                    <li><a href="http://en.wikipedia.org/wiki/IUI_(software)" target="_blank">http://en.wikipedia.org/wiki/IUI_(software)</a></li>
-                    <li><g:link mapping="documentation">Documentation</g:link></li>
-                    <li><g:link mapping="documentation">Extensions, sandbox & plugins</g:link></li>
-                    <li><g:link mapping="themes">Themes</g:link></li>
+                    <li><a href="http://en.wikipedia.org/wiki/IUI_(software)" target="_blank">iUI Wikipedia Entry</a></li>
+                    <li><g:link mapping="themes">Theme Gallery</g:link></li>
                 </ul>
             </div>
         </div>
         
         <div>
             <div class="mid-col">
-                <h3><g:link mapping="demo">iUI Video presentation demo</g:link></h3>
+                <h3><g:link mapping="demo">iUI Video Demo</g:link></h3>
                 <ul>
-                    <li><g:link mapping="documentation">Getting started documentation</g:link></li>
-                    <li><g:link mapping="themes">Themes</g:link></li>
-                    <li><g:link mapping="documentation">Advanced styling & themes</g:link></li>
+                    <li><a href="http://www.youtube.com/watch?v=Dnvtg83qrtY" target="_blank">Introductory video from homepage</a></li>
                 </ul>
             </div>
 
             <div class="mid-col">
                 <h3><g:link mapping="download">Download</g:link></h3>
                 <ul>
-                    <li><g:link mapping="documentation">Getting started documentation</g:link></li>
+                    <li><a href="${resource(dir: 'documentation/latest', file: 'getting-started.html')}">Getting started documentation</a></li>
                     <li><a href="http://code.google.com/p/iui/source/browse/" target="_blank">iUI source repository</a></li>
-                    <li><g:link mapping="documentation">Extensions, sandbox & plugins</g:link></li>
-                    <li><g:link mapping="themes">Themes</g:link></li>
                 </ul>
             </div>
         </div>
         
         <div>
             <div class="mid-col">
-                <h3><g:link mapping="documentation">Documentation (v0.40 - down-revving from 0.50)</g:link></h3>
+                <h3><g:link mapping="documentation">Documentation (v0.4)</g:link></h3>
                 <ul>
-                    <li><a href="documentation/latest/getting-started.html">Getting started</a></li>
+                    <li><a href="${resource(dir: 'documentation/latest', file: 'getting-started.html')}">Getting Started</a></li>
                     <li><g:link mapping="faq">Frequently Asked Questions</g:link></li>
                     <!-- Don't have script or time to keep this up to date, yet. So comment out...
                     <li><a href="documentation/latest/iui-documentation.html">iUI code documentation</a></li>
                     -->
-                    <li><a href="documentation/latest/extensions.html">Extensions, sandbox & plugins</a></li>
-                    <li><a href="documentation/latest/styles-themes.html">Advanced styling & themes</a></li>
+                    <li><a href="${resource(dir: 'documentation/latest', file: 'extensions.html')}">Extensions</a></li>
+                    <li><a href="${resource(dir: 'documentation/latest', file: 'styles-themes.html')}">Advanced styling & themes</a></li>
                 </ul>
             </div>
 
