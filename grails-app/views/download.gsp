@@ -18,11 +18,10 @@
         <div>
             <h2>Download iUI</h2> 
             <p>
-                Thanks for your interest in iUI.<br />
-                Please click on “<strong>Download iUI</strong>” button to get the latest release.
+                Please click on <q><strong>Download iUI</strong></q> button to get the latest release.
             </p>
             <p class="tcenter">
-                <a href="http://iui.googlecode.com/files/iui-0.40-beta2.zip" class="btnBig">Download iUI 0.40-beta2</a>
+                <a href="http://iui.googlecode.com/files/iui-0.4-beta3.zip" class="btnBig">Download iUI 0.4-beta3</a>
                 <a href="http://code.google.com/p/iui/downloads/list" target="_blank">See other versions</a>
             </p>
             <p>
