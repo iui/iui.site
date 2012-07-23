@@ -15,7 +15,7 @@
         <ga:trackPageview />
     </head>
     <body>
-        <a href="https://github.com/iui/iUI"><img style="position: absolute; z-index: 2000; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+        <a href="https://github.com/iui/iUI"><img style="position: absolute; z-index: 2000; top: 36px; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
         <div id="main">
 
             <div id="menu">
