@@ -1,3 +1,5 @@
+import grails.util.Environment
+
 grails.servlet.version = "2.5" // Change depending on target container compliance (2.5 or 3.0)
 
 grails.project.target.level = 1.6
@@ -37,7 +39,9 @@ grails.project.dependency.resolution = {
     }
     
     plugins {
-//        build ":jetty:2.0.3"
+        if (Environment.current != Environment.PRODUCTION) {
+            build ":jetty:2.0.3"
+        }
         compile ":cloud-bees:0.5.4"
         compile ":google-analytics:2.0"
     }
