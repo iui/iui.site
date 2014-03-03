@@ -42,6 +42,7 @@ grails.project.dependency.resolution = {
         if (Environment.current != Environment.PRODUCTION) {
             build ":jetty:2.0.3"
         }
+//        compile ":tomcat:7.0.42"
         compile ":cloud-bees:0.6.2"
         compile ":google-analytics:2.0"
     }
