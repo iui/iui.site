@@ -4,4 +4,4 @@ This is the source code for the http://www.iui-js.org[iUI WebSite]
 
 For information on the iUI WebSite project, please see the https://code.google.com/p/iui/wiki/WebsiteProject[iUI WebSite Project Wiki Page]
 
-There is a http://site-next.iui-js.org[staging server] for testing new versions of the website.  The staging server is now automatically updated with the latest code from this repository by the CloudBees http://www.cloudbees.com/dev.cb[DEV@Cloud] service.  You can check the results of the latest build and deploy by looking at the https://iui.ci.cloudbees.com/job/iui.site/[iui.site CI Project page].
+There is a http://site-stage.iui-js.org[staging server] for testing new versions of the website.  The staging server is now automatically updated with the latest code from this repository by the CloudBees http://www.cloudbees.com/dev.cb[DEV@Cloud] service.  You can check the results of the latest build and deploy by looking at the https://iui.ci.cloudbees.com/job/iui.site/[iui.site CI Project page].
